@@ -3,5 +3,5 @@ project(comp-prog)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++98")
 
-set(SOURCE_FILES week2/1/beachbars.cpp)
+set(SOURCE_FILES week2)
 add_executable(comp-prog ${SOURCE_FILES} week2/1/beachbars.cpp)
