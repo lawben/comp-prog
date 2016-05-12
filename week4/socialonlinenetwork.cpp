@@ -56,7 +56,4 @@ int main(int argc, char* argv[]) {
 
     int amountFriends = findFriends(numPeople, friends);
     cout << amountFriends << endl;
-
-
-
 }
