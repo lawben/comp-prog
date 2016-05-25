@@ -14,7 +14,7 @@ void printArray(int size, vector<bool> &array) {
     cout << endl;
 }
 
-int findFriends(const int numPeople, Graph friends) {
+int findFriends(const int numPeople, Graph &friends) {
     vector<bool> trusted(numPeople, false);
     int amountFriends = 0;
     queue<int> toInspect;
