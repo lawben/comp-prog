@@ -3,5 +3,5 @@ project(comp-prog)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES networkconnection.cpp)
-add_executable(comp-prog ${SOURCE_FILES} networkconnection.cpp)
+set(SOURCE_FILES convex_hull.cpp)
+add_executable(comp-prog ${SOURCE_FILES} convex_hull.cpp)

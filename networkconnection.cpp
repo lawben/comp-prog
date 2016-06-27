@@ -48,17 +48,26 @@ ull minimumCableLength(const unsigned int num_cities, vvpi &highways, int start)
 
 
 int main() {
-    unsigned int num_cities, num_highways;
-    cin >> num_cities >> num_highways;
-    vvpi highways(num_cities);
-    unsigned int a, b, w;
-    for (int i = 0; i < num_highways; i++) {
-        cin >> a >> b >> w;
-        highways.at(a).push_back(make_pair(b, w));
-        highways.at(b).push_back(make_pair(a, w));
-    }
+//    unsigned int num_cities, num_highways;
+//    cin >> num_cities >> num_highways;
+//    vvpi highways(num_cities);
+//    unsigned int a, b, w;
+//    for (int i = 0; i < num_highways; i++) {
+//        cin >> a >> b >> w;
+//        highways.at(a).push_back(make_pair(b, w));
+//        highways.at(b).push_back(make_pair(a, w));
+//    }
+//
+//    ull length = minimumCableLength(num_cities, highways, a);
+//    cout << length << endl;
 
-    ull length = minimumCableLength(num_cities, highways, a);
-    cout << length << endl;
+    int array[] = {2, 3, 4};
+    int other_array[4] = {0, 2, 3, 4};
+    int n = 3;
+    n++;
+    for (int j = 0; j < n; j++) {
+        cout << other_array[j] << " and ";
+        cout << array[j] << endl;
+    }
 }
 
